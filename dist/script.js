@@ -1,17 +1,17 @@
 const teamMembers = [
 	{ name: "Shara Chariz Cabrillos", role: "President" },
 	{ name: "Precios Jelian Gado", role: "Vice-President" },
-	{ name: "Emma Rodriguez", role: "Lead Developer" },
-	{ name: "Julia Gimmel", role: "UX Designer" },
-	{ name: "Lisa Anderson", role: "Marketing Manager" },
-	{ name: "James Wilson", role: "Product Manager" },
-	{ name: "New Member 7", role: "Role 7" },
-	{ name: "New Member 8", role: "Role 8" },
-	{ name: "New Member 9", role: "Role 9" },
-	{ name: "New Member 10", role: "Role 10" },
-	{ name: "New Member 11", role: "Role 11" },
-	{ name: "New Member 12", role: "Role 12" },
-
+	{ name: "John Mark Solomon", role: "Secretary" },
+	{ name: "Ceola Abigaye Antonio", role: "Treasurer" },
+	{ name: "Hannah Louisse Grejaldo", role: "Auditor" },
+	{ name: "Claude Ivan Berdol", role: "P.I.O" },
+	{ name: "Theodore John Santiago", role: "P.O" },
+	{ name: "Dan Mark Isidoro", role: "Grade 12 Rep" },
+	{ name: "Kriziel Ann Santiago", role: "Grade 11 Rep" },
+	{ name: "Mary Hyacinth Porras", role: "Grade 10 Rep" },
+	{ name: "Emy Ruth Saludares", role: "Grade 9 Rep" },
+	{ name: "Trixie Nono", role: "Grade 8 Rep" },
+	{ name: "Unknown 12", role: "Grade 7 Rep" },
 ];
 
 const cards = document.querySelectorAll(".card");
