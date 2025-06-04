@@ -1,6 +1,4 @@
-# Card Carousel
+# Gmcms Website
 
-A Pen created on CodePen.
-
-Original URL: [https://codepen.io/Nidal95/pen/RNNgWNM](https://codepen.io/Nidal95/pen/RNNgWNM).
+A website for Sslg Officers
 
