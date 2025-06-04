@@ -10,7 +10,7 @@ const teamMembers = [
 	{ name: "Kriziel Ann Santiago", role: "Grade 11 Rep" },
 	{ name: "Mary Hyacinth Porras", role: "Grade 10 Rep" },
 	{ name: "Emy Ruth Saludares", role: "Grade 9 Rep" },
-	{ name: "Trixie Nono", role: "Grade 8 Rep" },
+	{ name: "Trisha Nono", role: "Grade 8 Rep" },
 	{ name: "Unknown 12", role: "Grade 7 Rep" },
 ];
 
