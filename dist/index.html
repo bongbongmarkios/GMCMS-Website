@@ -5,9 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gmcms SSLG Officers</title>
   <link rel="stylesheet" href="./style.css">
+<!-- Add to the top of dist/index.html -->
+<script>
+  if (localStorage.getItem("loggedIn") !== "true") {
+    window.location.href = "../login.html";
+  }
+</script>
 
 </head>
 <body>
+<button onclick="logout()">Logout</button>
+<script>
+  function logout() {
+    localStorage.removeItem("loggedIn");
+    window.location.href = "../login.html";
+  }
+</script>
+
 <!-- partial:index.partial.html -->
 <h1 class="about-title">GMCMS SSLG</h1>
 
