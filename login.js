@@ -1,11 +1,13 @@
-const container = document.querySelector('.container');
-const registerBtn = document.querySelector('.register-btn');
-const loginBtn = document.querySelector('.login-btn');
+function validateLogin(event) {
+  event.preventDefault();
 
-registerBtn.addEventListener('click', () => {
-    container.classList.add('active');
-})
+  const username = document.getElementById("username").value;
+  const password = document.getElementById("password").value;
 
-loginBtn.addEventListener('click', () => {
-    container.classList.remove('active');
-})
+  if (username === "admin" && password === "1234") {
+    localStorage.setItem("loggedIn", "true");
+    window.location.href = "dist/index.html";
+  } else {
+    alert("Incorrect credentials!");
+  }
+}
