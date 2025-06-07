@@ -1,28 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
+ <!DOCTYPE html>
+<html lang="en" >
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gmcms SSLG Officers</title>
   <link rel="stylesheet" href="./style.css">
-
-  <!-- ✅ Check login status before loading page -->
-  <script>
-    if (localStorage.getItem("loggedIn") !== "true") {
-      window.location.href = "../login.html";
-    }
-  </script>
 </head>
 <body>
-
-<!-- ✅ Logout button -->
-<button onclick="logout()">Logout</button>
-<script>
-  function logout() {
-    localStorage.removeItem("loggedIn");
-    window.location.href = "../login.html";
-  }
-</script>
 
 <!-- Officers' Profiles -->
 <h1 class="about-title">GMCMS SSLG</h1>
@@ -69,4 +53,59 @@
 
 <script src="./script.js"></script>
 </body>
-</html>
+</html>calStorage.getItem("loggedIn") !== "true") {
+    window.location.href = "../login.html";
+  }
+</script>
+
+</head>
+<body>
+<button onclick="logout()">Logout</button>
+<script>
+  function logout() {
+    localStorage.removeItem("loggedIn");
+    window.location.href = "../login.html";
+  }
+</script>
+
+<!-- partial:index.partial.html -->
+<h1 class="about-title">GMCMS SSLG</h1>
+
+<div class="carousel-container">
+	<button class="nav-arrow left">‹</button>
+	<div class="carousel-track">
+		<div class="card" data-index="0">
+			<img src="https://i.imgur.com/fcjQnZI.png" alt="Team Member 1">
+		</div>
+		<div class="card" data-index="1">
+			<img src="https://i.imgur.com/Ru3OKQt.png" alt="Team Member 2">
+		</div>
+		<div class="card" data-index="2">
+			<img src="https://i.imgur.com/ZjggJhx.png" alt="Team Member 3">
+		</div>
+		<div class="card" data-index="3">
+			<img src="https://i.imgur.com/FOnPNA8.png" alt="Team Member 4">
+		</div>
+		<div class="card" data-index="4">
+			<img src="https://i.imgur.com/4xLHqqO.png" alt="Team Member 5">
+		</div>
+		<div class="card" data-index="5">
+			<img src="https://i.imgur.com/tIrkL0z.png" alt="Team Member 6">
+		</div>
+		<div class="card" data-index="6">
+			<img src="https://i.imgur.com/WusPqbo.png" alt="Team Member 7">
+		  </div>
+		  <div class="card" data-index="7">
+			<img src="https://i.imgur.com/O7lpKzC.png" alt="Team Member 8">
+		  </div>
+		  <div class="card" data-index="8">
+			<img src="https://i.imgur.com/fplCoKU.png" alt="Team Member 9">
+		  </div>
+		  <div class="card" data-index="9">
+			<  src="https://i.imgur.com/CoAfIWG.png" alt="Team Member 10">
+		  </div>
+		  <div class="card" data-index="10">
+			<img src="https://i.imgur.com/X0GmiAs.png" alt="Team Member 11">
+		  </div>
+		  <div class="card" data-index="11">
+			<img src="https://i.imgur.com/h6R69Qq.png" alt="Team Member 12">
